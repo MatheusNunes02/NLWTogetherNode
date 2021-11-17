@@ -32,7 +32,7 @@ class AuthenticateUserService {
             throw new Error("Email/Password incorrect");
         }
 
-        //MatheusAprendendoNode
+        //MatheusAprendendoNode hashMd5
         //Gerar Token
         const token = sign(
             {
